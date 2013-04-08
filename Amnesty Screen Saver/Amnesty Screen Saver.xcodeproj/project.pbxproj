@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		303721F20B5D3383003BDA4C /* AmnestySaver.icns in Resources */ = {isa = PBXBuildFile; fileRef = 303721F10B5D3383003BDA4C /* AmnestySaver.icns */; };
+		3099776809C62DA9009FDF12 /* Main.nib in Resources */ = {isa = PBXBuildFile; fileRef = 3099776609C62DA9009FDF12 /* Main.nib */; };
+		3099776E09C62DB6009FDF12 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3099776C09C62DB6009FDF12 /* Localizable.strings */; };
+		3099777009C62DCA009FDF12 /* ConfigureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3099776F09C62DCA009FDF12 /* ConfigureController.m */; };
+		3099777209C62DCE009FDF12 /* ConfigureController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3099777109C62DCE009FDF12 /* ConfigureController.h */; };
+		3099777709C62DE6009FDF12 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3099777609C62DE6009FDF12 /* WebKit.framework */; };
+		3099784D09C62DF8009FDF12 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3099784C09C62DF8009FDF12 /* Carbon.framework */; };
+		309978FE09C62E0A009FDF12 /* CFontList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 309978E509C62E0A009FDF12 /* CFontList.cpp */; };
+		309978FF09C62E0A009FDF12 /* CFontList.h in Headers */ = {isa = PBXBuildFile; fileRef = 309978E609C62E0A009FDF12 /* CFontList.h */; };
+		3099790009C62E0A009FDF12 /* CWidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 309978E709C62E0A009FDF12 /* CWidget.cpp */; };
+		3099790109C62E0A009FDF12 /* CWidget.h in Headers */ = {isa = PBXBuildFile; fileRef = 309978E809C62E0A009FDF12 /* CWidget.h */; };
+		3099790209C62E0A009FDF12 /* WidgetBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 309978E909C62E0A009FDF12 /* WidgetBridge.h */; };
+		3099790309C62E0A009FDF12 /* WidgetBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 309978EA09C62E0A009FDF12 /* WidgetBridge.m */; };
+		3099790409C62E0A009FDF12 /* WidgetCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 309978EB09C62E0A009FDF12 /* WidgetCalculator.h */; };
+		3099790509C62E0A009FDF12 /* WidgetCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 309978EC09C62E0A009FDF12 /* WidgetCalculator.m */; };
+		3099790609C62E0A009FDF12 /* WidgetController.h in Headers */ = {isa = PBXBuildFile; fileRef = 309978ED09C62E0A009FDF12 /* WidgetController.h */; };
+		3099790709C62E0A009FDF12 /* WidgetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 309978EE09C62E0A009FDF12 /* WidgetController.m */; };
+		3099790809C62E0A009FDF12 /* WidgetFlip.h in Headers */ = {isa = PBXBuildFile; fileRef = 309978EF09C62E0A009FDF12 /* WidgetFlip.h */; };
+		3099790909C62E0A009FDF12 /* WidgetFlip.m in Sources */ = {isa = PBXBuildFile; fileRef = 309978F009C62E0A009FDF12 /* WidgetFlip.m */; };
+		3099790A09C62E0A009FDF12 /* WidgetMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 309978F109C62E0A009FDF12 /* WidgetMenu.h */; };
+		3099790B09C62E0A009FDF12 /* WidgetMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 309978F209C62E0A009FDF12 /* WidgetMenu.m */; };
+		3099790C09C62E0A009FDF12 /* WidgetSystem.h in Headers */ = {isa = PBXBuildFile; fileRef = 309978F309C62E0A009FDF12 /* WidgetSystem.h */; };
+		3099790D09C62E0A009FDF12 /* WidgetSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 309978F409C62E0A009FDF12 /* WidgetSystem.m */; };
+		3099790E09C62E0A009FDF12 /* WidgetUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 309978F509C62E0A009FDF12 /* WidgetUtilities.cpp */; };
+		3099790F09C62E0A009FDF12 /* WidgetUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 309978F609C62E0A009FDF12 /* WidgetUtilities.h */; };
+		3099791009C62E0A009FDF12 /* WidgetView.h in Headers */ = {isa = PBXBuildFile; fileRef = 309978F709C62E0A009FDF12 /* WidgetView.h */; };
+		3099791109C62E0A009FDF12 /* WidgetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 309978F809C62E0A009FDF12 /* WidgetView.m */; };
+		3099791209C62E0A009FDF12 /* WidgetWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 309978F909C62E0A009FDF12 /* WidgetWindow.h */; };
+		3099791309C62E0A009FDF12 /* WidgetWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 309978FA09C62E0A009FDF12 /* WidgetWindow.m */; };
+		3099798F09C63397009FDF12 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3099798E09C63397009FDF12 /* SystemConfiguration.framework */; };
+		309979A709C633D8009FDF12 /* ScreenSaver.png in Resources */ = {isa = PBXBuildFile; fileRef = 309979A609C633D8009FDF12 /* ScreenSaver.png */; };
+		309979A909C633E0009FDF12 /* NoImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 309979A809C633E0009FDF12 /* NoImage.png */; };
+		309979AB09C633E8009FDF12 /* Amnesty.icns in Resources */ = {isa = PBXBuildFile; fileRef = 309979AA09C633E8009FDF12 /* Amnesty.icns */; };
+		30E7C0CC0EDB26B800F31874 /* Widget.nib in Resources */ = {isa = PBXBuildFile; fileRef = 30E7C0CA0EDB26B800F31874 /* Widget.nib */; };
+		8D255AC70486D3F9007BF209 /* Amnesty Screen Saver_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 32DBCFA80370C50100C91783 /* Amnesty Screen Saver_Prefix.pch */; };
+		8D255AC80486D3F9007BF209 /* Amnesty_Screen_SaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = F50079790118B23001CA0E54 /* Amnesty_Screen_SaverView.h */; };
+		8D255ACA0486D3F9007BF209 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+		8D255ACC0486D3F9007BF209 /* Amnesty_Screen_SaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = F500797A0118B23001CA0E54 /* Amnesty_Screen_SaverView.m */; };
+		8D255ACE0486D3F9007BF209 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+		8D255ACF0486D3F9007BF209 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = /System/Library/Frameworks/ScreenSaver.framework; sourceTree = "<absolute>"; };
+		089C1672FE841209C02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		303721F10B5D3383003BDA4C /* AmnestySaver.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AmnestySaver.icns; path = "../Runtime Images/AmnestySaver.icns"; sourceTree = SOURCE_ROOT; };
+		3099776709C62DA9009FDF12 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Main.nib; sourceTree = "<group>"; };
+		3099776D09C62DB6009FDF12 /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3099776F09C62DCA009FDF12 /* ConfigureController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ConfigureController.m; sourceTree = "<group>"; };
+		3099777109C62DCE009FDF12 /* ConfigureController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ConfigureController.h; sourceTree = "<group>"; };
+		3099777609C62DE6009FDF12 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		3099784C09C62DF8009FDF12 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		309978E509C62E0A009FDF12 /* CFontList.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CFontList.cpp; path = "../Amnesty Core/CFontList.cpp"; sourceTree = SOURCE_ROOT; };
+		309978E609C62E0A009FDF12 /* CFontList.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CFontList.h; path = "../Amnesty Core/CFontList.h"; sourceTree = SOURCE_ROOT; };
+		309978E709C62E0A009FDF12 /* CWidget.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CWidget.cpp; path = "../Amnesty Core/CWidget.cpp"; sourceTree = SOURCE_ROOT; };
+		309978E809C62E0A009FDF12 /* CWidget.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CWidget.h; path = "../Amnesty Core/CWidget.h"; sourceTree = SOURCE_ROOT; };
+		309978E909C62E0A009FDF12 /* WidgetBridge.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = WidgetBridge.h; path = "../Amnesty Core/WidgetBridge.h"; sourceTree = SOURCE_ROOT; };
+		309978EA09C62E0A009FDF12 /* WidgetBridge.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = WidgetBridge.m; path = "../Amnesty Core/WidgetBridge.m"; sourceTree = SOURCE_ROOT; };
+		309978EB09C62E0A009FDF12 /* WidgetCalculator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = WidgetCalculator.h; path = "../Amnesty Core/WidgetCalculator.h"; sourceTree = SOURCE_ROOT; };
+		309978EC09C62E0A009FDF12 /* WidgetCalculator.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = WidgetCalculator.m; path = "../Amnesty Core/WidgetCalculator.m"; sourceTree = SOURCE_ROOT; };
+		309978ED09C62E0A009FDF12 /* WidgetController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = WidgetController.h; path = "../Amnesty Core/WidgetController.h"; sourceTree = SOURCE_ROOT; };
+		309978EE09C62E0A009FDF12 /* WidgetController.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = WidgetController.m; path = "../Amnesty Core/WidgetController.m"; sourceTree = SOURCE_ROOT; };
+		309978EF09C62E0A009FDF12 /* WidgetFlip.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = WidgetFlip.h; path = "../Amnesty Core/WidgetFlip.h"; sourceTree = SOURCE_ROOT; };
+		309978F009C62E0A009FDF12 /* WidgetFlip.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = WidgetFlip.m; path = "../Amnesty Core/WidgetFlip.m"; sourceTree = SOURCE_ROOT; };
+		309978F109C62E0A009FDF12 /* WidgetMenu.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = WidgetMenu.h; path = "../Amnesty Core/WidgetMenu.h"; sourceTree = SOURCE_ROOT; };
+		309978F209C62E0A009FDF12 /* WidgetMenu.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = WidgetMenu.m; path = "../Amnesty Core/WidgetMenu.m"; sourceTree = SOURCE_ROOT; };
+		309978F309C62E0A009FDF12 /* WidgetSystem.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = WidgetSystem.h; path = "../Amnesty Core/WidgetSystem.h"; sourceTree = SOURCE_ROOT; };
+		309978F409C62E0A009FDF12 /* WidgetSystem.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = WidgetSystem.m; path = "../Amnesty Core/WidgetSystem.m"; sourceTree = SOURCE_ROOT; };
+		309978F509C62E0A009FDF12 /* WidgetUtilities.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = WidgetUtilities.cpp; path = "../Amnesty Core/WidgetUtilities.cpp"; sourceTree = SOURCE_ROOT; };
+		309978F609C62E0A009FDF12 /* WidgetUtilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = WidgetUtilities.h; path = "../Amnesty Core/WidgetUtilities.h"; sourceTree = SOURCE_ROOT; };
+		309978F709C62E0A009FDF12 /* WidgetView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = WidgetView.h; path = "../Amnesty Core/WidgetView.h"; sourceTree = SOURCE_ROOT; };
+		309978F809C62E0A009FDF12 /* WidgetView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = WidgetView.m; path = "../Amnesty Core/WidgetView.m"; sourceTree = SOURCE_ROOT; };
+		309978F909C62E0A009FDF12 /* WidgetWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = WidgetWindow.h; path = "../Amnesty Core/WidgetWindow.h"; sourceTree = SOURCE_ROOT; };
+		309978FA09C62E0A009FDF12 /* WidgetWindow.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = WidgetWindow.m; path = "../Amnesty Core/WidgetWindow.m"; sourceTree = SOURCE_ROOT; };
+		3099798E09C63397009FDF12 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
+		309979A609C633D8009FDF12 /* ScreenSaver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ScreenSaver.png; path = "../Runtime Images/ScreenSaver.png"; sourceTree = SOURCE_ROOT; };
+		309979A809C633E0009FDF12 /* NoImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = NoImage.png; path = "../Runtime Images/NoImage.png"; sourceTree = SOURCE_ROOT; };
+		309979AA09C633E8009FDF12 /* Amnesty.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Amnesty.icns; path = "../Runtime Images/Amnesty.icns"; sourceTree = SOURCE_ROOT; };
+		30E7C0CB0EDB26B800F31874 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = ../Amnesty/English.lproj/Widget.nib; sourceTree = SOURCE_ROOT; };
+		32DBCFA80370C50100C91783 /* Amnesty Screen Saver_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Amnesty Screen Saver_Prefix.pch"; sourceTree = "<group>"; };
+		8D255AD20486D3F9007BF209 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D255AD30486D3F9007BF209 /* Amnesty Screen Saver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Amnesty Screen Saver.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F50079790118B23001CA0E54 /* Amnesty_Screen_SaverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Amnesty_Screen_SaverView.h; sourceTree = "<group>"; };
+		F500797A0118B23001CA0E54 /* Amnesty_Screen_SaverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Amnesty_Screen_SaverView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D255ACD0486D3F9007BF209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACE0486D3F9007BF209 /* Cocoa.framework in Frameworks */,
+				8D255ACF0486D3F9007BF209 /* ScreenSaver.framework in Frameworks */,
+				3099777709C62DE6009FDF12 /* WebKit.framework in Frameworks */,
+				3099784D09C62DF8009FDF12 /* Carbon.framework in Frameworks */,
+				3099798F09C63397009FDF12 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* Amnesty Screen Saver */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32DBCFA70370C4F300C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = "Amnesty Screen Saver";
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3099776609C62DA9009FDF12 /* Main.nib */,
+				30E7C0CA0EDB26B800F31874 /* Widget.nib */,
+				303721F10B5D3383003BDA4C /* AmnestySaver.icns */,
+				8D255AD20486D3F9007BF209 /* Info.plist */,
+				309979AA09C633E8009FDF12 /* Amnesty.icns */,
+				309979A809C633E0009FDF12 /* NoImage.png */,
+				309979A609C633D8009FDF12 /* ScreenSaver.png */,
+				3099776C09C62DB6009FDF12 /* Localizable.strings */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F50079790118B23001CA0E54 /* Amnesty_Screen_SaverView.h */,
+				F500797A0118B23001CA0E54 /* Amnesty_Screen_SaverView.m */,
+				3099777109C62DCE009FDF12 /* ConfigureController.h */,
+				3099776F09C62DCA009FDF12 /* ConfigureController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3099784C09C62DF8009FDF12 /* Carbon.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+				06F27B2DFFEEEFEF11CA0E56 /* ScreenSaver.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				089C167FFE841241C02AAC07 /* AppKit.framework */,
+				089C1672FE841209C02AAC07 /* Foundation.framework */,
+				3099798E09C63397009FDF12 /* SystemConfiguration.framework */,
+				3099777609C62DE6009FDF12 /* WebKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D255AD30486D3F9007BF209 /* Amnesty Screen Saver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		309978E409C62E0A009FDF12 /* Amnesty Core */ = {
+			isa = PBXGroup;
+			children = (
+				309978E509C62E0A009FDF12 /* CFontList.cpp */,
+				309978E609C62E0A009FDF12 /* CFontList.h */,
+				309978E709C62E0A009FDF12 /* CWidget.cpp */,
+				309978E809C62E0A009FDF12 /* CWidget.h */,
+				309978E909C62E0A009FDF12 /* WidgetBridge.h */,
+				309978EA09C62E0A009FDF12 /* WidgetBridge.m */,
+				309978EB09C62E0A009FDF12 /* WidgetCalculator.h */,
+				309978EC09C62E0A009FDF12 /* WidgetCalculator.m */,
+				309978ED09C62E0A009FDF12 /* WidgetController.h */,
+				309978EE09C62E0A009FDF12 /* WidgetController.m */,
+				309978EF09C62E0A009FDF12 /* WidgetFlip.h */,
+				309978F009C62E0A009FDF12 /* WidgetFlip.m */,
+				309978F109C62E0A009FDF12 /* WidgetMenu.h */,
+				309978F209C62E0A009FDF12 /* WidgetMenu.m */,
+				309978F309C62E0A009FDF12 /* WidgetSystem.h */,
+				309978F409C62E0A009FDF12 /* WidgetSystem.m */,
+				309978F509C62E0A009FDF12 /* WidgetUtilities.cpp */,
+				309978F609C62E0A009FDF12 /* WidgetUtilities.h */,
+				309978F709C62E0A009FDF12 /* WidgetView.h */,
+				309978F809C62E0A009FDF12 /* WidgetView.m */,
+				309978F909C62E0A009FDF12 /* WidgetWindow.h */,
+				309978FA09C62E0A009FDF12 /* WidgetWindow.m */,
+			);
+			name = "Amnesty Core";
+			sourceTree = "<group>";
+		};
+		32DBCFA70370C4F300C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				309978E409C62E0A009FDF12 /* Amnesty Core */,
+				32DBCFA80370C50100C91783 /* Amnesty Screen Saver_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D255AC60486D3F9007BF209 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255AC70486D3F9007BF209 /* Amnesty Screen Saver_Prefix.pch in Headers */,
+				8D255AC80486D3F9007BF209 /* Amnesty_Screen_SaverView.h in Headers */,
+				3099777209C62DCE009FDF12 /* ConfigureController.h in Headers */,
+				309978FF09C62E0A009FDF12 /* CFontList.h in Headers */,
+				3099790109C62E0A009FDF12 /* CWidget.h in Headers */,
+				3099790209C62E0A009FDF12 /* WidgetBridge.h in Headers */,
+				3099790409C62E0A009FDF12 /* WidgetCalculator.h in Headers */,
+				3099790609C62E0A009FDF12 /* WidgetController.h in Headers */,
+				3099790809C62E0A009FDF12 /* WidgetFlip.h in Headers */,
+				3099790A09C62E0A009FDF12 /* WidgetMenu.h in Headers */,
+				3099790C09C62E0A009FDF12 /* WidgetSystem.h in Headers */,
+				3099790F09C62E0A009FDF12 /* WidgetUtilities.h in Headers */,
+				3099791009C62E0A009FDF12 /* WidgetView.h in Headers */,
+				3099791209C62E0A009FDF12 /* WidgetWindow.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D255AC50486D3F9007BF209 /* Amnesty Screen Saver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7AD72D08BB986600CE4634 /* Build configuration list for PBXNativeTarget "Amnesty Screen Saver" */;
+			buildPhases = (
+				8D255AC60486D3F9007BF209 /* Headers */,
+				8D255AC90486D3F9007BF209 /* Resources */,
+				8D255ACB0486D3F9007BF209 /* Sources */,
+				8D255ACD0486D3F9007BF209 /* Frameworks */,
+				8D255AD00486D3F9007BF209 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amnesty Screen Saver";
+			productInstallPath = "$(HOME)/Library/Screen Savers";
+			productName = "Amnesty Screen Saver";
+			productReference = 8D255AD30486D3F9007BF209 /* Amnesty Screen Saver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EF7AD73108BB986600CE4634 /* Build configuration list for PBXProject "Amnesty Screen Saver" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* Amnesty Screen Saver */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D255AC50486D3F9007BF209 /* Amnesty Screen Saver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D255AC90486D3F9007BF209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACA0486D3F9007BF209 /* InfoPlist.strings in Resources */,
+				3099776809C62DA9009FDF12 /* Main.nib in Resources */,
+				3099776E09C62DB6009FDF12 /* Localizable.strings in Resources */,
+				309979A709C633D8009FDF12 /* ScreenSaver.png in Resources */,
+				309979A909C633E0009FDF12 /* NoImage.png in Resources */,
+				309979AB09C633E8009FDF12 /* Amnesty.icns in Resources */,
+				303721F20B5D3383003BDA4C /* AmnestySaver.icns in Resources */,
+				30E7C0CC0EDB26B800F31874 /* Widget.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D255AD00486D3F9007BF209 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D255ACB0486D3F9007BF209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D255ACC0486D3F9007BF209 /* Amnesty_Screen_SaverView.m in Sources */,
+				3099777009C62DCA009FDF12 /* ConfigureController.m in Sources */,
+				309978FE09C62E0A009FDF12 /* CFontList.cpp in Sources */,
+				3099790009C62E0A009FDF12 /* CWidget.cpp in Sources */,
+				3099790309C62E0A009FDF12 /* WidgetBridge.m in Sources */,
+				3099790509C62E0A009FDF12 /* WidgetCalculator.m in Sources */,
+				3099790709C62E0A009FDF12 /* WidgetController.m in Sources */,
+				3099790909C62E0A009FDF12 /* WidgetFlip.m in Sources */,
+				3099790B09C62E0A009FDF12 /* WidgetMenu.m in Sources */,
+				3099790D09C62E0A009FDF12 /* WidgetSystem.m in Sources */,
+				3099790E09C62E0A009FDF12 /* WidgetUtilities.cpp in Sources */,
+				3099791109C62E0A009FDF12 /* WidgetView.m in Sources */,
+				3099791309C62E0A009FDF12 /* WidgetWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3099776609C62DA9009FDF12 /* Main.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3099776709C62DA9009FDF12 /* English */,
+			);
+			name = Main.nib;
+			sourceTree = "<group>";
+		};
+		3099776C09C62DB6009FDF12 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3099776D09C62DB6009FDF12 /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		30E7C0CA0EDB26B800F31874 /* Widget.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30E7C0CB0EDB26B800F31874 /* English */,
+			);
+			name = Widget.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF7AD72E08BB986600CE4634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Amnesty Screen Saver_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "Amnesty Screen Saver";
+				SDKROOT = "";
+				WRAPPER_EXTENSION = saver;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		EF7AD72F08BB986600CE4634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Amnesty Screen Saver_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "Amnesty Screen Saver";
+				SDKROOT = "";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+		EF7AD73208BB986600CE4634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Amnesty_Screen_Save_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PREBINDING = NO;
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		EF7AD73308BB986600CE4634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_64_BIT_PRE_XCODE_3_1 = "x86_64 i386 ppc";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Amnesty_Screen_Save_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PREBINDING = YES;
+				SDKROOT = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7AD72D08BB986600CE4634 /* Build configuration list for PBXNativeTarget "Amnesty Screen Saver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7AD72E08BB986600CE4634 /* Debug */,
+				EF7AD72F08BB986600CE4634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7AD73108BB986600CE4634 /* Build configuration list for PBXProject "Amnesty Screen Saver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7AD73208BB986600CE4634 /* Debug */,
+				EF7AD73308BB986600CE4634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

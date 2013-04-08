@@ -1,0 +1,40 @@
+"GenericOK" = "OK";
+
+"Instructions" = "このWidgetのインスタンスをDashboardを使わずに開くアプリケーションを作成するには、作成を押してください。";
+
+"NoSupportTitle" = "Widgetに非対応";
+"NoSupportMessage" = "このWidgetに、Amnestyは対応していません。";
+"NoSupportPantherMessage" = "このWidgetに、Pantherで実行中のAmnestyは対応していません。";
+
+"CorruptTitle" = "Widgetが不完全";
+"CorruptMessage" = "このWidgetは、必要なデータが不足しているか、壊れています。";
+
+"ReplaceTitle" = "上書き確認";
+"ReplaceOK" = "上書き";
+"ReplaceCancel" = "キャンセル";
+"ConfirmReplace" = "\"%@\" という名前のアプリケーションは、すでにこの場所に存在します。上書きして置き換えますか？";
+"RemoveTitle" = "除去";
+"ConfirmRemove" = "本当に、お使いのアプリケーションのコマンド・メニューから、このコマンドを除去しますか？";
+
+"PurchaseMessage" = "Amnesty Singlesを購入いただき、ありがとうございます！";
+"PurchaseActivated" = "この製品の再アクティベーションに成功しました。";
+"PurchaseError1" = "eSellerate Integrated eSellerが読み込みできません。このエラーを、software@mesadynamics.comに報告してください。";
+"PurchaseError2" = "お使いのハードウェア構成が変更さえています。この製品は、特定のマシンに対して使用許諾されていますが、お使いのハードウェアの構成に合わせて再アクティベートすることができます。今すぐeSellerateに接続しますか？";
+"PurchaseError3" = "この製品は、このマシンでアクティベートされたことがないようです。この製品の再アクティベートが必要です。今すぐeSellerateに接続しますか？";
+"PurchaseError4" = "このシリアル番号を確認できませんでした。購入から数分しか経っていないようなら、サーバがまだ処理中かもしれません。15分ほど待って、そのシリアル番号を再度アクティベートしてみてください。その際も同じエラーが表示されたら、sales@mesadynamics.comまで相談してください。";
+"PurchaseError5" = "この登録は無効です。注文の確認あるいは請求書メールを再度調べてください。";
+"PurchaseError6" = "これは有効な登録ではありません。";
+"PurchaseError7" = "この登録は期限切れです。";
+"PurchaseFail1" = "不明なシリアル番号";
+"PurchaseFail2" = "ブラックリストに記載されたシリアル番号";
+"PurchaseFail3" = "メーカに返品された製品";
+"PurchaseFail4" = "アクティベーションが制限回数に到達";
+"PurchaseFail5" = "アクティベーション・キーが無効";
+"PurchaseFail6" = "認識できないシリアル番号";
+"PurchaseUnknown" = "eSellerate Integrated eSellerで、不明なエラー (%d) が起きました。";
+"PurchaseContact" = "sales@mesadynamics.comに相談してください。";
+
+"UpdateCheck" = "アップデータの有無を確認...";
+"UpdateYes" = "Amnesty Singlesのより新しいバージョンがあります。";
+"UpdateNo" = "お使いのAmnesty Singlesは最新版です。今のところ、アップデータはありません。";
+"UpdateDownload" = "ダウンロードページを開く";

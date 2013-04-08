@@ -1,0 +1,7 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "Amnesty Singles";
+CFBundleShortVersionString = "1.5";
+CFBundleGetInfoString = "1.5, Copyright © 2006-2008 Mesa Dynamics, LLC.";
+NSHumanReadableCopyright = "Copyright © 2006-2008 Mesa Dynamics, LLC.\
+All rights reserved.";

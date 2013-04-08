@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3003B84909F3F9D100847CF2 /* AmnestySingles.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3003B84809F3F9D100847CF2 /* AmnestySingles.icns */; };
+		3003B8F509F3FFF600847CF2 /* SinglesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3003B8F409F3FFF600847CF2 /* SinglesView.m */; };
+		3038456B0A3A15BC00985A6D /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3038456A0A3A15BC00985A6D /* Carbon.framework */; };
+		3038461D0A3A165000985A6D /* CWidget.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3038461B0A3A165000985A6D /* CWidget.cpp */; };
+		3056DD300A4C89C900C0281A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3056DD2E0A4C89C900C0281A /* Localizable.strings */; };
+		306802E30A49F0930038843B /* AmnestyDrop.png in Resources */ = {isa = PBXBuildFile; fileRef = 306802E20A49F0930038843B /* AmnestyDrop.png */; };
+		306833721711351700A74A47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 306833711711351700A74A47 /* InfoPlist.strings */; };
+		306833741711352400A74A47 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 306833731711352400A74A47 /* LICENSE */; };
+		3068337717115FB600A74A47 /* AmnestyClient.app in Resources */ = {isa = PBXBuildFile; fileRef = 3068337617115FB600A74A47 /* AmnestyClient.app */; };
+		306EEA5D0AA3471300A99E90 /* architecture.c in Sources */ = {isa = PBXBuildFile; fileRef = 306EEA5C0AA3471300A99E90 /* architecture.c */; };
+		3072A2CA0A41FA8100E5514C /* IconFamily.m in Sources */ = {isa = PBXBuildFile; fileRef = 3072A2C90A41FA8100E5514C /* IconFamily.m */; };
+		3072A2CF0A41FAEF00E5514C /* NSString+CarbonFSRefCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3072A2CE0A41FAEF00E5514C /* NSString+CarbonFSRefCreation.m */; };
+		3079A2020A645C7A0016D584 /* SplashSingles.png in Resources */ = {isa = PBXBuildFile; fileRef = 3079A2010A645C7A0016D584 /* SplashSingles.png */; };
+		30AD7A8309E30A8F00B0C4CF /* SinglesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30AD7A8209E30A8F00B0C4CF /* SinglesController.m */; };
+		30DDCA000A59ACA50042FEB4 /* CFontList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 30DDC9FF0A59ACA50042FEB4 /* CFontList.cpp */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		30AEC7560EDC9E2A004E617F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		3003B84809F3F9D100847CF2 /* AmnestySingles.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = AmnestySingles.icns; path = "../Runtime Images/AmnestySingles.icns"; sourceTree = SOURCE_ROOT; };
+		3003B8F309F3FFF600847CF2 /* SinglesView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SinglesView.h; sourceTree = "<group>"; };
+		3003B8F409F3FFF600847CF2 /* SinglesView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SinglesView.m; sourceTree = "<group>"; };
+		3033B2FD0AA5C86600A66567 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3033B3090AA5C8B900A66567 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		3035A5120A879C6A009C7A82 /* Danish */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Danish; path = Danish.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3035A5130A879C6B009C7A82 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3035A5140A879C6F009C7A82 /* Portuguese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Portuguese; path = Portuguese.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3035A5170A879C78009C7A82 /* Danish */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Danish; path = Danish.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		3035A5180A879C79009C7A82 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		3035A5190A879C7C009C7A82 /* Portuguese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Portuguese; path = Portuguese.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		3038456A0A3A15BC00985A6D /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		3038461B0A3A165000985A6D /* CWidget.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CWidget.cpp; path = "../Amnesty Core/CWidget.cpp"; sourceTree = SOURCE_ROOT; };
+		3038461C0A3A165000985A6D /* CWidget.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CWidget.h; path = "../Amnesty Core/CWidget.h"; sourceTree = SOURCE_ROOT; };
+		3056DD2F0A4C89C900C0281A /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		306802E20A49F0930038843B /* AmnestyDrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = AmnestyDrop.png; path = "../Runtime Images/AmnestyDrop.png"; sourceTree = SOURCE_ROOT; };
+		306833711711351700A74A47 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		306833731711352400A74A47 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3068337617115FB600A74A47 /* AmnestyClient.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; name = AmnestyClient.app; path = ../AmnestyClient/AmnestyClient.app; sourceTree = "<group>"; };
+		306EEA5C0AA3471300A99E90 /* architecture.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; name = architecture.c; path = "../Amnesty Core/architecture.c"; sourceTree = SOURCE_ROOT; };
+		3072A2C80A41FA8100E5514C /* IconFamily.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = IconFamily.h; path = "../Amnesty Extras/IconFamily.h"; sourceTree = SOURCE_ROOT; };
+		3072A2C90A41FA8100E5514C /* IconFamily.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = IconFamily.m; path = "../Amnesty Extras/IconFamily.m"; sourceTree = SOURCE_ROOT; };
+		3072A2CD0A41FAEF00E5514C /* NSString+CarbonFSRefCreation.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = "NSString+CarbonFSRefCreation.h"; path = "../Amnesty Extras/NSString+CarbonFSRefCreation.h"; sourceTree = SOURCE_ROOT; };
+		3072A2CE0A41FAEF00E5514C /* NSString+CarbonFSRefCreation.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; name = "NSString+CarbonFSRefCreation.m"; path = "../Amnesty Extras/NSString+CarbonFSRefCreation.m"; sourceTree = SOURCE_ROOT; };
+		3079A2010A645C7A0016D584 /* SplashSingles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SplashSingles.png; path = "../Runtime Images/SplashSingles.png"; sourceTree = SOURCE_ROOT; };
+		30AD7A8109E30A8F00B0C4CF /* SinglesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglesController.h; sourceTree = "<group>"; };
+		30AD7A8209E30A8F00B0C4CF /* SinglesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SinglesController.m; sourceTree = "<group>"; };
+		30B856C40A6D38FB005E1BEB /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = zh_TW.lproj/Localizable.strings; sourceTree = "<group>"; };
+		30B856C70A6D3904005E1BEB /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = zh_TW; path = zh_TW.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		30DDC9FE0A59ACA50042FEB4 /* CFontList.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = CFontList.h; path = "../Amnesty Core/CFontList.h"; sourceTree = SOURCE_ROOT; };
+		30DDC9FF0A59ACA50042FEB4 /* CFontList.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = CFontList.cpp; path = "../Amnesty Core/CFontList.cpp"; sourceTree = SOURCE_ROOT; };
+		32CA4F630368D1EE00C91783 /* Amnesty Singles_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Amnesty Singles_Prefix.pch"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* Amnesty Singles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Amnesty Singles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				3038456B0A3A15BC00985A6D /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				30AD7A8109E30A8F00B0C4CF /* SinglesController.h */,
+				30AD7A8209E30A8F00B0C4CF /* SinglesController.m */,
+				3003B8F309F3FFF600847CF2 /* SinglesView.h */,
+				3003B8F409F3FFF600847CF2 /* SinglesView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3038456A0A3A15BC00985A6D /* Carbon.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* Amnesty Singles.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* Amnesty Singles */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "Amnesty Singles";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3038461E0A3A165600985A6D /* Amnesty Core */,
+				3072A2C80A41FA8100E5514C /* IconFamily.h */,
+				3072A2C90A41FA8100E5514C /* IconFamily.m */,
+				3072A2CD0A41FAEF00E5514C /* NSString+CarbonFSRefCreation.h */,
+				3072A2CE0A41FAEF00E5514C /* NSString+CarbonFSRefCreation.m */,
+				32CA4F630368D1EE00C91783 /* Amnesty Singles_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				306833731711352400A74A47 /* LICENSE */,
+				3068337617115FB600A74A47 /* AmnestyClient.app */,
+				306802E20A49F0930038843B /* AmnestyDrop.png */,
+				3003B84809F3F9D100847CF2 /* AmnestySingles.icns */,
+				3079A2010A645C7A0016D584 /* SplashSingles.png */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				306833711711351700A74A47 /* InfoPlist.strings */,
+				3056DD2E0A4C89C900C0281A /* Localizable.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3038461E0A3A165600985A6D /* Amnesty Core */ = {
+			isa = PBXGroup;
+			children = (
+				306EEA5C0AA3471300A99E90 /* architecture.c */,
+				30DDC9FE0A59ACA50042FEB4 /* CFontList.h */,
+				30DDC9FF0A59ACA50042FEB4 /* CFontList.cpp */,
+				3038461B0A3A165000985A6D /* CWidget.cpp */,
+				3038461C0A3A165000985A6D /* CWidget.h */,
+			);
+			name = "Amnesty Core";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* Amnesty Singles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Amnesty Singles" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				30AEC7560EDC9E2A004E617F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Amnesty Singles";
+			productInstallPath = "$(HOME)/Applications";
+			productName = "Amnesty Singles";
+			productReference = 8D1107320486CEB800E47090 /* Amnesty Singles.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Amnesty Singles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				zh_TW,
+				Danish,
+				Portuguese,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* Amnesty Singles */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* Amnesty Singles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				3003B84909F3F9D100847CF2 /* AmnestySingles.icns in Resources */,
+				306802E30A49F0930038843B /* AmnestyDrop.png in Resources */,
+				3056DD300A4C89C900C0281A /* Localizable.strings in Resources */,
+				3079A2020A645C7A0016D584 /* SplashSingles.png in Resources */,
+				306833721711351700A74A47 /* InfoPlist.strings in Resources */,
+				306833741711352400A74A47 /* LICENSE in Resources */,
+				3068337717115FB600A74A47 /* AmnestyClient.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				30AD7A8309E30A8F00B0C4CF /* SinglesController.m in Sources */,
+				3003B8F509F3FFF600847CF2 /* SinglesView.m in Sources */,
+				3038461D0A3A165000985A6D /* CWidget.cpp in Sources */,
+				3072A2CA0A41FA8100E5514C /* IconFamily.m in Sources */,
+				3072A2CF0A41FAEF00E5514C /* NSString+CarbonFSRefCreation.m in Sources */,
+				30DDCA000A59ACA50042FEB4 /* CFontList.cpp in Sources */,
+				306EEA5D0AA3471300A99E90 /* architecture.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+				30B856C70A6D3904005E1BEB /* zh_TW */,
+				3035A5170A879C78009C7A82 /* Danish */,
+				3035A5180A879C79009C7A82 /* French */,
+				3035A5190A879C7C009C7A82 /* Portuguese */,
+				3033B3090AA5C8B900A66567 /* Japanese */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		3056DD2E0A4C89C900C0281A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3056DD2F0A4C89C900C0281A /* English */,
+				30B856C40A6D38FB005E1BEB /* zh_TW */,
+				3035A5120A879C6A009C7A82 /* Danish */,
+				3035A5130A879C6B009C7A82 /* French */,
+				3035A5140A879C6F009C7A82 /* Portuguese */,
+				3033B2FD0AA5C86600A66567 /* Japanese */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+				);
+				PRODUCT_NAME = "Amnesty Singles";
+				SDKROOT = "";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+				);
+				PRODUCT_NAME = "Amnesty Singles";
+				SDKROOT = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Amnesty Singles_Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				DEPLOYMENT_POSTPROCESSING = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Amnesty Singles_Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Amnesty Singles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Amnesty Singles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

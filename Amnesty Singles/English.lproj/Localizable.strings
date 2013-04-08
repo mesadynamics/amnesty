@@ -1,0 +1,40 @@
+"GenericOK" = "OK";
+
+"Instructions" = "Press Build to create an application that opens an instance of this widget outside of Dashboard.";
+
+"NoSupportTitle" = "Widget Unsupported";
+"NoSupportMessage" = "This widget is not supported by Amnesty.";
+"NoSupportPantherMessage" = "This widget is not supported by Amnesty running on Panther.";
+
+"CorruptTitle" = "Widget Incomplete";
+"CorruptMessage" = "This widget is missing some required data and may be corrupt.";
+
+"ReplaceTitle" = "Confirm Replace";
+"ReplaceOK" = "Replace";
+"ReplaceCancel" = "Cancel";
+"ConfirmReplace" = "An application named \"%@\" already exists in this location.  Do you want to replace it?";
+"RemoveTitle" = "Remove";
+"ConfirmRemove" = "Do you really want to remove this command from your application's Command menu?";
+
+"PurchaseMessage" = "Thank you for purchasing Amnesty Singles!";
+"PurchaseActivated" = "This product has been successfully reactivated.";
+"PurchaseError1" = "The eSellerate Integrated eSeller could not be loaded.  Please report this error to software@mesadynamics.com.";
+"PurchaseError2" = "Your hardware configuration appears to have changed.  Although this product is licensed to one machine, it can be reactivated to reflect your new hardware setup.  Do you want to connect to eSellerate now?";
+"PurchaseError3" = "This product does not appear to have been activated on this machine.  This product will have to be reactivated.  Do you want to connect to eSellerate now?";
+"PurchaseError4" = "This serial number could not be verified.  If you placed your order in the past few minutes, the servers may still be processing it.  Please wait about 15 minutes and try activating your serial number again. If you receive this error at that time, contact sales@mesadynamics.com for assistance.";
+"PurchaseError5" = "This is not a valid registration.  Please double check your Confirmation Order or Invoice email.";
+"PurchaseError6" = "This is not a valid registration.";
+"PurchaseError7" = "This registration has expired.";
+"PurchaseFail1" = "Unknown serial number";
+"PurchaseFail2" = "Serial number blacklisted";
+"PurchaseFail3" = "Product Returned To Publisher";
+"PurchaseFail4" = "Activation Limit Reached";
+"PurchaseFail5" = "Activation Key Invalid";
+"PurchaseFail6" = "Unrecognized serial number";
+"PurchaseUnknown" = "An unknown error (%d) has occurred in the eSellerate Integrated eSeller.";
+"PurchaseContact" = "Please contact sales@mesadynamics.com for assistance.";
+
+"UpdateCheck" = "Check for Updates...";
+"UpdateYes" = "A new version of Amnesty Singles is available.";
+"UpdateNo" = "Your version of Amnesty Singles is up to date.  There are no updates available at this time.";
+"UpdateDownload" = "Go to Download Page";

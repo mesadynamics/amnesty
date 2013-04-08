@@ -1,0 +1,77 @@
+"OldSystemTitle" = "未受支援的系統";
+"OldSystemQuit" = "結束";
+"OldSystemMessage" = "很抱歉，Amnesty 最低需求為 Mac OS X 10.3.9 或更新的系統。";
+
+"PantherTitle" = "給 Panther 使用者的訊息";
+"PantherContinue" = "執行";
+"PantherQuit" = "結束";
+"PantherInstall" = "打開 Widget 資源庫";
+"PantherMessage1" = "雖然 Amnesty 可於 Panther 執行，但有些 Dashboard widget 是設計僅於 Tiger 上執行的。";
+"PantherMessage2" = "因為您尚未進行安裝，首先您將必須在 Amnesty Widget 資源庫安裝協力廠商的 widget。";
+"PantherMessage3" = "~/資源庫/Application Support/Amnesty/Widgets";
+"PantherMessage4" = "請留意：屬於蘋果電腦財產的 widget 並無法於 Panther 上執行的 Amnesty 存取。";
+
+"DeleteTitle" = "確認刪除";
+"DeleteConfirm" = "刪除";
+"DeleteCancel" = "取消";
+"DeleteMessage" = "您是否真的想要刪除這個配置 \"%@\"？";
+
+"ReplaceTitle" = "確認取代";
+"ReplaceConfirm" = "取代";
+"ReplaceCancel" = "取消";
+"ReplaceMessage" = "您是否真的想要取代這個配置 \"%@\"？";
+"ReplaceAltMessage" = "您已經安裝了 %@ 的較早版本。您是否想要取代它？";
+
+"ResetTitle" = "確認重置";
+"ResetConfirm" = "重置";
+"ResetCancel" = "取消";
+"ResetMessage" = "您是否真的想要重置這個 widget 的設定 \"%@\"？";
+
+"ConfigureHelp" = "輔助說明";
+"ConfigureTitle" = "Widget 設定";
+"ConfigureOK" = "好";
+"ConfigureMessage" = "按下並按住 control 鍵，並點選您螢幕上任何 widget。然後，從顯示的彈出式選單選取 \"設定...\" 選單項目。";
+
+"InfoTitle" = "Widget 簡介";
+"InfoOK" = "好";
+"InfoMessage1" = "名稱";
+"InfoMessage2" = "辨識值";
+"InfoMessage3" = "版本";
+"InfoMessage4" = "位置";
+
+"SecurityTitle" = "安全性檢查";
+"SecurityGrant" = "總是允許";
+"SecurityDontGrant" = "不允許";
+"SecurityMessage" = "這個 %@ widget 要求權限以存取：%@";
+"SecurityTypeFile" = "本機檔案";
+"SecurityTypePlugins" = "網路外掛";
+"SecurityTypeJava" = "Java";
+"SecurityTypeNet" = "網路資源";
+"SecurityTypeSystem" = "系統呼叫";
+"SecurityInfo" = "如果這個 widget 源自一個可信任的來源，並且/或者您同意此項存取，按下 '總是允許' 按鈕以便現在執行這個 widget。";
+
+"WidgetRefresh" = "現在更新";
+"WidgetSleep" = "睡眠";
+"WidgetWake" = "喚醒";
+"WidgetSettings" = "設定...";
+"WidgetHide" = "隱藏";
+"WidgetInfo" = "簡介";
+"WidgetClose" = "關閉 Widget";
+"WidgetCopy" = "複製";
+
+"DefaultLayout" = "預設值";
+"ConfigureHidden" = "設定隱藏...";
+"ConfigureLayout" = "設定";
+"HideWidgets" = "隱藏";
+"ShowWidgets" = "顯示";
+
+"ErrorNoWidgets" = "沒有找到 widget";
+
+"UpdateCheck" = "檢查更新...";
+"UpdateYes" = "新版本的 Amnesty 目前已可下載。";
+"UpdateNo" = "您的 Amnesty 版本目前是最新版本。目前沒有更新的程式可以下載。";
+
+"Samples" = "樣本 Widget";
+"UserLayouts" = "使用者配置：";
+
+

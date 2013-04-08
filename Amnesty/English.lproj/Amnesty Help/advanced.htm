@@ -1,0 +1,51 @@
+<HTML>	<HEAD> 		<META HTTP-EQUIV="content-type" CONTENT="text/html;charset=iso-8859-1">		<TITLE>Advanced Tips &amp; Tricks</TITLE>		<META NAME="Copyright" CONTENT="Copyright 2005 Mesa Dynamics, LLC">		<META NAME="DESCRIPTION" CONTENT="Advanced Tips and Tricks for Amnesty">	</HEAD>	<BODY BGCOLOR="#ffffff">		<IMG SRC="gfx/no_icon.jpg" WIDTH="64" HEIGHT="64"><p>		<FONT SIZE="3" FACE="Lucida Grande,Geneva,Arial"><b>Advanced Tips &amp; Tricks</b></font>		<FONT SIZE="2" FACE="Lucida Grande,Geneva,Arial"><p>
+<b>Using Amnesty with a subset of Dashboard widgets (Tiger only)</b></p><p>	
+If you only use Amnesty with a select group of widgets, you may want to install copies of these widgets into the Amnesty widget library.  Then, disable loading of the <i>Dashboard User</i> and <i>Dashboard Default</i> widget libraries in Preferences. This will keep your Amnesty menu much shorter, and free from those widgets you don't want to use (or that don't run) in Amnesty.</p>
+
+<b>Grouping widgets into submenus</b></p><p>	
+If you have a large widget library and your Amnesty menu is getting too long, you may want to group your widgets  in the Amnesty widget library into subfolders.  Each subfolder in this location will appear as a submenu under the Amnesty menu (in Tiger, this is how the <i>Sample Widgets</i> submenu is implemented).</p>
+
+<b>Auto-installing widgets (Panther only)</b></p><p>To automatically install widgets into the Amnesty widget library, drag and drop <i>.wdgt</i> files directly onto the Amnesty application icon (or double-click <i>.wdgt</i> files in the Finder).  Note: if Amnesty is already running, you'll also need to refresh the widget list after auto-installing.</p>
+
+<b>Creating multiple widget instances</b></p><p>
+Amnesty currently does not have built-in support for multiple widget instances, which means that you can't have more than one, for example, World Clock widget.  You can however, work around this limitation with a little work:
+<ul>
+1. Make a copy of the widget's <i>.wdgt</i> file (for Tiger users, it's best  to install this copy into the Amnesty widget library so it doesn't appear in Dashboard).<p>
+2. Control-click the copy of the <i>.wdgt</i> file and select <b>Show Package Contents</b> from the submenu that appears.  A Finder window will open showing the contents of the widget bundle.<p>
+3. Double-click the <i>Info.plist</i> file in this window.  It should open in Apple's <i>Property List Editor</i>.<p>
+4. In the editor, click the disclosure arrow next to the word <i>Root</i> to reveal the contents of the file.<p>
+5. Modify the value of the  <i>CFBundleIdentifier</i> key so that it is unique.  For example, change "com.apple.widget.worldclock" to "com.apple.widget.worldclock2".<p>
+6. Close the editor and launch Amnesty.  You should now have two, distinct widgets.
+</ul> 
+Built-in support for multiple widget instances will be added to a future version of Amnesty.</p>
+
+<b>Using Expos&#233; with Amnesty</b></p><p>	
+If you've placed widgets into the Desktop window level, you can use the Expos&#233; <i>Desktop</i> mode (F11) to quickly reveal them.  Similarly, you can use the Expos&#233; <i>All windows</i> mode (F9) to help find widgets in the Standard window level.</p>
+
+<b>Opening a Flash-based widget's popup menu (or Configuration sheet)</b></p><p>	
+If a widget is <i>running and visible</i> you cannot control-click it due to a Flash animation that is playing inside the widget, you can force the widget's popup menu to show by holding own the <i>Control</i> key while selecting it from the Amnesty menu. Similarly, holding down the <i>Option</i> key instead will force the Configuration sheet to appear.
+</p>
+
+<b>Re-centering a widget</b></p><p>	
+If a widget is <i>running and visible</i> and you've lost it on your desktop (perhaps on a multiple monitor that has been disconnected), you can re-center on your main monitor by holding own the <i>Shift</i> key while selecting it from the Amnesty menu. 
+</p>
+
+<b>Resetting a widget's layout settings</b></p><p>	
+If a widget is <i>closed</i>, you can reset its layout settings (Location and Configuration) by holding down the <i>Shift</i> and <i>Option</i> keys while selecting it from the Amnesty menu.  Upon opening, the widget's layout settings will be reset. This also works when selecting a layout from the Layout submenu (all closed widgets in the layout will have their layout settings reset).</p>
+
+<b>Opening Amnesty in Safe Mode</b></p><p>	
+By default, Amnesty remembers the last open layout and opens it the next time it is launched.  If for some reason, a widget in this layout is causing Amnesty to crash or freeze, you can force Amnesty to launch with all widgets closed by holding down the <i>Shift</i> key at launch. 
+</p>
+
+<b>Manually resetting a widget's internal preferences</b></p><p>	
+Most widgets have their own internal "back side" preferences that are used to save and restore certain settings.  In some cases, you may want to remove these preferences to "reset" a widget that is not working properly:
+<ul>
+1. In Amnesty, control-click a widget and select <b>Get Info</b> from the popup menu that appears. <p>
+2. Make a note of the <i>Identifier</i> field.<p>
+3. Close the widget.<p>
+4. In the Finder, open the Amnesty widget preferences folder (~/Library/Application Support/Amnesty/Preferences).<p>
+5. Move the file whose title matches the widget's <i>Identifier</i> to the Trash.<p>
+6. In Amnesty, open the widget.  It should be reset.
+</ul>
+Note that this is different from resetting a widget's layout settings.
+	</BODY></HTML>

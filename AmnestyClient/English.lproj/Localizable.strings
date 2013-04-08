@@ -1,0 +1,21 @@
+"GenericOK" = "OK";
+"GenericQuit" = "Quit";
+
+"MissingTitle" = "Widget Not Found";
+"MissingMessage" = "The widget referenced by this application cannot be found.  Please locate the widget titled \"%@\" on your machine.";
+
+"MismatchTitle" = "Widget Mismatch";
+"MismatchMessage" = "The widget referenced by this application does not match the loaded widget.";
+
+"NoSupportTitle" = "Widget Unsupported";
+"NoSupportMessage" = "The widget referenced by this application is not supported by Amnesty.";
+"NoSupportPantherMessage" = "The widget referenced by this application is not supported by Amnesty running on Panther.";
+
+"InfoTitle" = "Widget Info";
+"InfoOK" = "OK";
+"InfoMessage1" = "Name";
+"InfoMessage2" = "Identifier";
+"InfoMessage3" = "Version";
+"InfoMessage4" = "Location";
+
+"CommandMenu" = "Commands";

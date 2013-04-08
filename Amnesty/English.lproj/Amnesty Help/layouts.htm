@@ -1,0 +1,61 @@
+<HTML>	<HEAD> 		<META HTTP-EQUIV="content-type" CONTENT="text/html;charset=iso-8859-1">		<TITLE>Working with Layouts</TITLE>		<META NAME="Copyright" CONTENT="Copyright 2005 Mesa Dynamics, LLC">		<META NAME="DESCRIPTION" CONTENT="How to work with Layouts in Amnesty">	</HEAD>	<BODY BGCOLOR="#ffffff">		<IMG SRC="gfx/no_icon.jpg" WIDTH="64" HEIGHT="64"><p>		<FONT SIZE="3" FACE="Lucida Grande,Geneva,Arial"><b>Working with Layouts</b></font>		<FONT SIZE="2" FACE="Lucida Grande,Geneva,Arial"><p>
+		
+A <i>layout</i> is a template that keeps track of the visibility, location and configuration of every widget loaded in Amnesty <i>Widget Browser</i>.
+<p>For example, suppose you open a widget and place it in the desktop level at the bottom left of your screen at 50% opacity.  The next time you launch Amnesty, this widget will be opened and these settings will be remembered.  This happens because whenever you open, hide or close a widget &mdash; whenever you modify any widget's settings &mdash; these changes are recorded in the current layout.
+<p>If you have a large widget collection, or have limited screen real estate to place your widgets, the ability to create multiple layouts can be a welcome feature: each layout can store its own, distinct widget environment.  For example, you can keep all your game widgets in a "Game" layout and all your news widgets in a "News" layout, and bring each of these layouts to the screen independently whenever you choose.
+
+<p>You can also have the same widget in multiple layouts: a widget could be in the top right corner in one layout and in the top left corner and in the desktop level in another.  (Note: widgets in multiple layouts still share the same, internal "back side" preferences.  If you want to get around this limitation see <a href="advanced.htm">Advanced Tips &amp; Tricks</a>).
+
+<p>Layouts in Amnesty (and functions to control them) are accessible via the Layout submenu.<p>  The following layouts are "built in" (and cannot be deleted):
+
+<ul>
+<p><b>Default.</b>  This layout is the one that is active when Amnesty is launched for the very first time.  If you never change layouts, the Default layout will always be the one that is active.</p>
+
+<p><b>Hidden.</b>  This is a special layout where every widget is hidden.  Widgets cannot be opened or shown while this layout is active.</p></ul>
+User created layouts are listed below these under the heading <i>User Layouts</i>.
+
+<FONT SIZE="2" FACE="Lucida Grande,Geneva,Arial">
+			<P><br><b>Opening a layout</b><p>			<P>			</FONT>			<P><TABLE BORDER="0" CELLPADDING="5" CELLSPACING="0" WIDTH="100%">				<TR BGCOLOR="#fff8dc">					<TD><FONT SIZE="2" FACE="Lucida Grande,Geneva,Arial">
+
+Select a layout's name from the Layout submenu. 
+			</FONT></TD>				</TR>			</TABLE></P>
+The widgets belonging to the current layout (if any) will disappear from the screen and the widgets belonging to your selected layout will appear in their place.
+
+<FONT SIZE="2" FACE="Lucida Grande,Geneva,Arial">
+			<P><br><b>Hiding the current layout</b><p>			<P>			</FONT>			<P><TABLE BORDER="0" CELLPADDING="5" CELLSPACING="0" WIDTH="100%">				<TR BGCOLOR="#fff8dc">					<TD><FONT SIZE="2" FACE="Lucida Grande,Geneva,Arial">
+
+Select <b>Hide</b> from the Layout submenu. 
+			</FONT></TD>				</TR>			</TABLE></P>
+The current layout will close and the Hidden layout will open in its place (accordingly,  all widgets will disappear from the screen).
+<FONT SIZE="1" FACE="Lucida Grande,Geneva,Arial">
+<p>Note: Every widget listed in the Amnesty menu  will appear in a <i>Disabled</i> state while the Hidden layout is open.</font> 
+<FONT SIZE="2" FACE="Lucida Grande,Geneva,Arial">
+			<P><br><b>Showing the previously open layout</b><p>			<P>			</FONT>			<P><TABLE BORDER="0" CELLPADDING="5" CELLSPACING="0" WIDTH="100%">				<TR BGCOLOR="#fff8dc">					<TD><FONT SIZE="2" FACE="Lucida Grande,Geneva,Arial">
+
+Select <b>Show</b> from the Layout submenu. 
+			</FONT></TD>				</TR>			</TABLE></P>
+The Hidden layout will close and the previously open layout will open in its place.<FONT SIZE="2" FACE="Lucida Grande,Geneva,Arial">
+			<P><br><b>Creating a new layout</b><p>						</FONT>			<P><TABLE BORDER="0" CELLPADDING="5" CELLSPACING="0" WIDTH="100%">				<TR BGCOLOR="#fff8dc">					<TD><FONT SIZE="2" FACE="Lucida Grande,Geneva,Arial">
+
+Select <b>Save Layout As</b> from the Layout submenu.			</FONT></TD>				</TR>			</TABLE></P>
+A dialog box will appear where you can enter a name for the new layout.  The new layout will reflect the state of the current layout and will now be accessible via in the Layout submenu.
+			</FONT><p>
+<FONT SIZE="1" FACE="Lucida Grande,Geneva,Arial">Hint: To create a new "empty" layout, activate the Hidden layout before you select <b>Save Layout As</b>.  This will create a new layout where all widgets are hidden to begin with.  You can then open and place widgets in your new layout to your liking.
+</FONT>
+<FONT SIZE="2" FACE="Lucida Grande,Geneva,Arial">
+			<P><br><b>Deleting the current layout</b><p>			<P>			</FONT>			<P><TABLE BORDER="0" CELLPADDING="5" CELLSPACING="0" WIDTH="100%">				<TR BGCOLOR="#fff8dc">					<TD><FONT SIZE="2" FACE="Lucida Grande,Geneva,Arial">
+
+Select <b>Delete Layout</b> from the Layout submenu.			</FONT></TD>				</TR>			</TABLE></P>
+<FONT SIZE="2" FACE="Lucida Grande,Geneva,Arial">
+A dialog box will appear to confirm the deletion.  This operation cannot be undone.  After deleting the current layout, the Hidden layout will be opened in its place.
+			</FONT>
+
+<FONT SIZE="2" FACE="Lucida Grande,Geneva,Arial">
+			<P><br><b>Bringing widgets to the front</b><p>			<P>
+			If you have placed widgets in the current layout into different window levels, then you may find it difficult to get an idea of what your layout looks like.  Or, if you've made a widget "click-through" you won't be able to control-click it to further modify its settings.  In both cases, bringing widgets to the front can solve these problems.			</FONT>			<P><TABLE BORDER="0" CELLPADDING="5" CELLSPACING="0" WIDTH="100%">				<TR BGCOLOR="#fff8dc">					<TD><FONT SIZE="2" FACE="Lucida Grande,Geneva,Arial">
+
+Select <b>Bring Widgets to Front</b> from the Layout submenu.			</FONT></TD>				</TR>			</TABLE></P>
+<FONT SIZE="2" FACE="Lucida Grande,Geneva,Arial">
+Every widget in the current layout will come to the front of the screen, regardless of what window level it is supposed to be in.  In addition, all widgets that are "click-through" will be clickable.  Now you can inspect the layout and modify any widget's settings.<p>Note that this is a temporary mode.  If you switch layouts, or if you select <b>Return Widgets to Layout</b> from the Layout submenu, the widgets will return to their proper window levels and enforce their "click-through" settings.
+			</FONT>
+	</BODY></HTML>

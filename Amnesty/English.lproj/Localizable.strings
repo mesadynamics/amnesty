@@ -1,0 +1,77 @@
+"OldSystemTitle" = "Unsupported System";
+"OldSystemQuit" = "Quit";
+"OldSystemMessage" = "Sorry, Amnesty requires Max OS X 10.3.9 or later.";
+
+"PantherTitle" = "Information for Panther Users";
+"PantherContinue" = "Run";
+"PantherQuit" = "Quit";
+"PantherInstall" = "Open Widget Library";
+"PantherMessage1" = "Although Amnesty runs on Panther, some Dashboard widgets are designed only to run on Tiger.";
+"PantherMessage2" = "Since you have not already done so, you will first need to install third-party widgets in the Amnesty Widget Library";
+"PantherMessage3" = "~/Library/Application Support/Amnesty/Widgets";
+"PantherMessage4" = "Note: Widgets that are property of Apple Computer are not accessible in Amnesty running on Panther.";
+
+"DeleteTitle" = "Confirm Delete";
+"DeleteConfirm" = "Delete";
+"DeleteCancel" = "Cancel";
+"DeleteMessage" = "Do you really want to delete the layout named \"%@\"?";
+
+"ReplaceTitle" = "Confirm Replace";
+"ReplaceConfirm" = "Replace";
+"ReplaceCancel" = "Cancel";
+"ReplaceMessage" = "Do you really want to replace the layout named \"%@\"?";
+"ReplaceAltMessage" = "You already have an earlier version of %@ installed.  Do you want to replace it?";
+
+"ResetTitle" = "Confirm Reset";
+"ResetConfirm" = "Reset";
+"ResetCancel" = "Cancel";
+"ResetMessage" = "Do you really want to reset the settings for the widget named \"%@\"?";
+
+"ConfigureHelp" = "Help";
+"ConfigureTitle" = "Widget Settings";
+"ConfigureOK" = "OK";
+"ConfigureMessage" = "Press and hold the control key and click any widget on your screen.  Then, select the \"Configure...\" menu item from the popup menu that appears.";
+
+"InfoTitle" = "Widget Info";
+"InfoOK" = "OK";
+"InfoMessage1" = "Name";
+"InfoMessage2" = "Identifier";
+"InfoMessage3" = "Version";
+"InfoMessage4" = "Location";
+
+"SecurityTitle" = "Security Check";
+"SecurityGrant" = "Always Allow";
+"SecurityDontGrant" = "Don't Allow";
+"SecurityMessage" = "The %@ widget requests permission to access:%@";
+"SecurityTypeFile" = "Local files";
+"SecurityTypePlugins" = "Internet plugins";
+"SecurityTypeJava" = "Java";
+"SecurityTypeNet" = "Internet resources";
+"SecurityTypeSystem" = "System calls";
+"SecurityInfo" = "If this widget is from a trusted source and/or you approve of this access, click the Always Allow button to run this widget now.";
+
+"WidgetRefresh" = "Update Now";
+"WidgetSleep" = "Sleep";
+"WidgetWake" = "Wake";
+"WidgetSettings" = "Configure...";
+"WidgetHide" = "Hide";
+"WidgetInfo" = "Get Info";
+"WidgetClose" = "Close Widget";
+"WidgetCopy" = "Duplicate";
+
+"DefaultLayout" = "Default";
+"ConfigureHidden" = "Configure Hidden...";
+"ConfigureLayout" = "Configure";
+"HideWidgets" = "Hide";
+"ShowWidgets" = "Show";
+
+"ErrorNoWidgets" = "No widgets found";
+
+"UpdateCheck" = "Check for Updates...";
+"UpdateYes" = "A new version of Amnesty is available.";
+"UpdateNo" = "Your version of Amnesty is up to date.  There are no updates available at this time.";
+
+"Samples" = "Sample Widgets";
+"UserLayouts" = "User Layouts:";
+
+

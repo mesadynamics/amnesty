@@ -1,0 +1,15 @@
+//
+// Prefix header for all source files of the 'AmnestyClient' target in the 'AmnestyClient' project
+//
+
+#define MAC_OS_X_VERSION_MIN_REQUIRED	MAC_OS_X_VERSION_10_3
+#define MAC_OS_X_VERSION_MAX_ALLOWED	MAC_OS_X_VERSION_10_4
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+#define FeatureFlip			1
+#define BuildClient		1
+#define AmnestyLog(c,...)	(void)0
+//#define AmnestyLog			NSLog

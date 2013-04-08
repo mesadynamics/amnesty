@@ -1,0 +1,77 @@
+"OldSystemTitle" = "Nicht unterstütztes System";
+"OldSystemQuit" = "Beenden";
+"OldSystemMessage" = "Sorry, Amnesty benötigt Max OS X 10.3.9 oder höher.";
+
+"PantherTitle" = "Informationen für Panther User";
+"PantherContinue" = "Ausführen";
+"PantherQuit" = "Beenden";
+"PantherInstall" = "Widget Library öffnen";
+"PantherMessage1" = "Obwohl Amnesty unter Panther ausgeführt werden kann, funktionieren einige Dashboard Widgets nur mit Tiger.";
+"PantherMessage2" = "Sofern dies nicht bereits gemacht wurde, sollten zunächst einige Widgets von Drittherrstellern zur Amnesty Widget Library hinzugefügt werden.";
+"PantherMessage3" = "~/Library/Application Support/Amnesty/Widgets";
+"PantherMessage4" = "Hinweis: Die Tiger-Widgets von Apple Computer können im Amnesty unter Panther nicht ausgeführt werden.";
+
+"DeleteTitle" = "Löschen bestätigen";
+"DeleteConfirm" = "Löschen";
+"DeleteCancel" = "Abbruch";
+"DeleteMessage" = "Möchten Sie das Layout \"%@\" wirklich löschen?";
+
+"ReplaceTitle" = "Ersetzen bestätigen";
+"ReplaceConfirm" = "Ersetzen";
+"ReplaceCancel" = "Abbruch";
+"ReplaceMessage" = "Möchten Sie das Layout \"%@\" wirklich ersetzen?";
+"ReplaceAltMessage" = "Es gibt bereits ein Layout namens %@.  Möchten Sie es ersetzen?";
+
+"ResetTitle" = "Zurücksetzen";
+"ResetConfirm" = "Zurücksetzen";
+"ResetCancel" = "Abbruch";
+"ResetMessage" = "Do you really want to reset the settings for the widget named \"%@\"?";
+
+"ConfigureHelp" = "Hilfe";
+"ConfigureTitle" = "Widget Einstellungen";
+"ConfigureOK" = "OK";
+"ConfigureMessage" = "Um ein Widget zu konfigurieren, drücken Sie CTRL und klicken auf das Widget.  Danach wählen Sie im Popup Menü \"Konfigurieren...\" aus.";
+
+"InfoTitle" = "Widget Info";
+"InfoOK" = "OK";
+"InfoMessage1" = "Name";
+"InfoMessage2" = "Identifizierung";
+"InfoMessage3" = "Version";
+"InfoMessage4" = "Location";
+
+"SecurityTitle" = "Sicherheits Check";
+"SecurityGrant" = "Immer erlauben";
+"SecurityDontGrant" = "Nicht erlauben";
+"SecurityMessage" = "Das %@ Widget benötigt Zugriff auf:%@";
+"SecurityTypeFile" = "Lokale Files";
+"SecurityTypePlugins" = "Internet Plugins";
+"SecurityTypeJava" = "Java";
+"SecurityTypeNet" = "Internet Ressourcen";
+"SecurityTypeSystem" = "System Aufrufe";
+"SecurityInfo" = "Wenn das Widget aus einer vertrauenswürdigen Quelle stammt, klicken Sie auf Immer erlauben um es auszuführen.";
+
+"WidgetRefresh" = "Aktualisieren";
+"WidgetSleep" = "Standby";
+"WidgetWake" = "Aufwecken";
+"WidgetSettings" = "Konfigurieren...";
+"WidgetHide" = "Ausblenden";
+"WidgetInfo" = "Information";
+"WidgetClose" = "Schliessen";
+"WidgetCopy" = "Duplizieren";
+
+"DefaultLayout" = "Standard";
+"ConfigureHidden" = "Konfiguriere Ausgeblendete...";
+"ConfigureLayout" = "Konfigurieren von";
+"HideWidgets" = "Ausblenden von";
+"ShowWidgets" = "Widgets zeigen";
+
+"ErrorNoWidgets" = "Keine Widgets gefunden";
+
+"UpdateCheck" = "Überprüfe auf Updates...";
+"UpdateYes" = "Es gibt eine neue Version des Amnesty.";
+"UpdateNo" = "Ihre Version ist aktuell. Derzeit gibt es keine Updates.";
+
+"Samples" = "Sample Widgets";
+"UserLayouts" = "User Layouts:";
+
+

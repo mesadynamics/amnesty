@@ -1,0 +1,77 @@
+"OldSystemTitle" = "非対応システム";
+"OldSystemQuit" = "終了";
+"OldSystemMessage" = "申し訳ありませんが、Amnesty の使用には、Max OS X 10.3.9 以降が必要です。";
+
+"PantherTitle" = "Panther ユーザ用の情報";
+"PantherContinue" = "実行";
+"PantherQuit" = "終了";
+"PantherInstall" = "Widget ライブラリを開く";
+"PantherMessage1" = "Amnesty は Panther でも使用できますが、Tiger 以外では問題が起きる Widget があるかも知れません。";
+"PantherMessage2" = "まず最初にサードパーティ製の Widget を Amnesty Widget ライブラリにインストールしてください。";
+"PantherMessage3" = "~/Library/Application Support/Amnesty/Widgets";
+"PantherMessage4" = "注意：Apple Computer が所有する Widget は、Panther 上で実行されている Amnesty では使えません。";
+
+"DeleteTitle" = "削除の確認";
+"DeleteConfirm" = "削除";
+"DeleteCancel" = "キャンセル";
+"DeleteMessage" = "このレイアウトを本当に削除しますか？： \"%@\"";
+
+"ReplaceTitle" = "置換の確認";
+"ReplaceConfirm" = "置換";
+"ReplaceCancel" = "キャンセル";
+"ReplaceMessage" = "このレイアウトを本当に置換しますか？： \"%@\"";
+"ReplaceAltMessage" = "既に %@ の旧バージョンがインストールされています。本当に置換しますか？";
+
+"ResetTitle" = "リセットの確認";
+"ResetConfirm" = "リセット";
+"ResetCancel" = "キャンセル";
+"ResetMessage" = "次の Widget の設定を本当にリセットしますか？： \"%@\"";
+
+"ConfigureHelp" = "ヘルプ";
+"ConfigureTitle" = "Widget の設定";
+"ConfigureOK" = "OK";
+"ConfigureMessage" = "Control キーを押したまま、画面上の Widget 上をクリックしてください。次に、表示されたポップアップメニューで \"設定...\" メニュー項目を選択してください。";
+
+"InfoTitle" = "Widget 情報";
+"InfoOK" = "OK";
+"InfoMessage1" = "名前";
+"InfoMessage2" = "アイデンティファイア";
+"InfoMessage3" = "バージョン";
+"InfoMessage4" = "場所";
+
+"SecurityTitle" = "セキュリティのチェック";
+"SecurityGrant" = "常に許可";
+"SecurityDontGrant" = "許可しない";
+"SecurityMessage" = "Wideget %@ は、次へのアックセス許可を求めています：%@";
+"SecurityTypeFile" = "ローカルファイル";
+"SecurityTypePlugins" = "Internet プラグイン";
+"SecurityTypeJava" = "Java";
+"SecurityTypeNet" = "Internet リソース";
+"SecurityTypeSystem" = "System コール";
+"SecurityInfo" = "この Widget が信用できるソースから入手されたものであり、このアクセスを許可するなら、今すぐ実行するために「常に許可」ボタンをクリックしてください。";
+
+"WidgetRefresh" = "今すぐ更新";
+"WidgetSleep" = "スリープ";
+"WidgetWake" = "スリープ解除";
+"WidgetSettings" = "設定...";
+"WidgetHide" = "非表示";
+"WidgetInfo" = "情報を見る";
+"WidgetClose" = "Widget を閉じる";
+"WidgetCopy" = "重複";
+
+"DefaultLayout" = "初期設定";
+"ConfigureHidden" = "非表示の設定...";
+"ConfigureLayout" = "設定：";
+"HideWidgets" = "非表示：";
+"ShowWidgets" = "表示：";
+
+"ErrorNoWidgets" = "Widget が見つかりません。";
+
+"UpdateCheck" = "アップデータを確認...";
+"UpdateYes" = "Amnesty の新しいバージョンが公開されています。";
+"UpdateNo" = "お客様の Amnesty は最新です。利用できるアップデータは、今のところありません。";
+
+"Samples" = "Widget サンプル";
+"UserLayouts" = "ユーザによるレイアウト：";
+
+

@@ -1,0 +1,21 @@
+"GenericOK" = "OK";
+"GenericQuit" = "終了";
+
+"MissingTitle" = "Widgetが見つかりません";
+"MissingMessage" = "このアプリケーションが参照しているWidgetが見つかりません。お使いのマシンで、\"%@\" という名前のWidgetを探してください。";
+
+"MismatchTitle" = "Widgetの不一致";
+"MismatchMessage" = "このアプリケーションが参照するWidgetが、読み込まれたWidgetと一致しません。";
+
+"NoSupportTitle" = "Widgetが非対応";
+"NoSupportMessage" = "このアプリケーションが参照するWidgetに、Amnestyは対応していません。";
+"NoSupportPantherMessage" = "このアプリケーションが参照するWidgetに、Pantherで実行されたAmnestyは対応していません。";
+
+"InfoTitle" = "Widget情報";
+"InfoOK" = "OK";
+"InfoMessage1" = "名前";
+"InfoMessage2" = "識別子";
+"InfoMessage3" = "バージョン";
+"InfoMessage4" = "場所";
+
+"CommandMenu" = "コマンド";

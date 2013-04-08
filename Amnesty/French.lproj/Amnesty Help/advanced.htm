@@ -1,0 +1,52 @@
+<HTML>	<HEAD> 		<META HTTP-EQUIV="content-type" CONTENT="text/html;charset=x-mac-roman">		<TITLE>Trucs et astuces avancés</TITLE>		<META NAME="Copyright" CONTENT="Copyright 2005 Mesa Dynamics, LLC">		<META NAME="DESCRIPTION" CONTENT="Trucs et astuces avancés pour Amnesty">	</HEAD>	<BODY BGCOLOR="#ffffff">		<IMG SRC="gfx/no_icon.jpg" WIDTH="64" HEIGHT="64"><p>		<FONT SIZE="3" FACE="Lucida Grande,Geneva,Arial"><b>Trucs et astuces avancés</b></font>		<FONT SIZE="2" FACE="Lucida Grande,Geneva,Arial"><p>
+<b>Utilisation d'Amnesty avec un sous-ensemble des widgets Dashboard (Tiger seulement)</b></p>
+<p>	
+Si vous utilisez seulement Amnesty avec un groupe choisi de widgets, vous pouvez vouloir installer des copies de ces widgets dans la bibliothèque de widgets Amnesty. Ensuite, désactiver le chargement des bibliothèques de widget
+<i>Dashboard Utilisateur</i> et <i>Dashboard par défaut</i> dans les Préférences. Ceci maintiendra votre menu Amnesty beaucoup plus court, et libérera ces widgets que vous ne voulez pas utiliser (ou qui ne fonctionnent pas) dans Amnesty.
+</p>
+<b>Groupement de widgets dans des sous-menus</b></p>
+<p>	
+Si vous avez une grande bibliothèque de widgets et que votre menu Amnesty devient trop long, vous pouvez vouloir grouper vos widgets dans la bibliothèque de widgets d'Amnesty dans des sous-dossiers. Chaque sous-dossier dans cet emplacement apparaîtra comme un sous-menu sous le menu d'Amnesty (dans Tiger, voici comment le sous-menu <i>Widgets échantillon</i> est implémenté).
+</p>
+
+<b>Auto-installation de widgets (Panther seulement)</b></p>
+
+<p>Pour installer automatiquement des widgets dans la bibliothèque d'Amnesty, glissez-déposez des fichiers <i>.wdgt</i> sur l'icône de l'application Amnesty (ou double-cliquez sur les fichiers <i>.wdgt</i> dans le Finder.  <b>Nota</b> : si Amnesty fonctionne déjà, vous devrez également actualiser la liste de widgets après l'installation automatique.</p>
+
+<b>Création de multiples copies d'un widget</b></p>
+<p>
+Amnesty n'a pas de soutien intégré pour de multiples copies d'un widget, ce qui signifie que vous ne pouvez pas avoir plus d'une copie du widget Horloge mondiale, par exemple. Cependant, vous pouvez faire fi de cette limitation avec un peu de travail :
+<ul>
+1. Faites une copie du fichier <i>.wdgt</i> du widget (pour les utilisateurs de Tiger, il est préférable d'installer cette copie dans la bibliothèque des widgets d'Amnesty pour qu'il n'apparaisse pas dans Dashbord).<p>
+2. Contrôle-cliquez la copie du fichier <i>.wdgt</i> et sélectionner <b>Afficher le contenu du paquet</b> du menu contextuel qui apparaît. Une fenêtre du Finder s'ouvrira affichant le contenu du paquet du widget.
+<p>
+3. Double-cliquez le fichier <i>Info.plist</i> dans cette fenêtre.  Il devrait ouvrir dans <i>Property List Editor</i> d'Apple.<p>
+4. Dans l'éditeur, cliquez sur le triangle en regard du mot <i>Root</i> pour révéler le contenu du fichier.<p>
+5. Modifier la valeur de la clef <i>CFBundleIdentifier</i> pour qu'elle soit unique. Par exemple, modifier "com.apple.widget.worldclock" en "com.apple.widget.worldclock2".<p>
+6. Fermez l'éditeur et lancez Amnesty. Vous devriez avoir maintenant deux widgets distincts.
+</ul> 
+Le soutien intégré pour de multiples widgets sera ajouté à une version future d'Amnesty.</p>
+
+<b>Utilisation d'Expos&#233; avec Amnesty</b></p><p>
+	
+Si vous avez mis des widgets sur le niveau de la fenêtre du Bureau, vous pouvez utiliser le mode <i>Bureau</i> d'Expos&#233; (F11) pour les révéler rapidement. De façon similaire, vous pouvez utiliser le mode <i>Toutes les fenêtres</i> d'Expos&#233; (F9) pour faciliter la recherche de ceux-ci dans le niveau standard des fenêtres.</p>
+
+<b>Revenir à la disposition d'origine d'un widget</b></p><p>
+Si un widget est <i>fermé</i>, vous pouvez revenir à la disposition d'origine (Emplacement et Configuration) en tenant la touche <i>Option</i> enfoncée en sélectionnant le widget à partir du menu Amnesty. À l'ouverture, les réglages de la disposition reviendront aux réglages d'origine. Ceci fonctionne aussi en sélectionnant une disposition à partir du sous-menu Disposition (tous les widgets fermés dans cette disposition auront leurs réglages remis à zéro.)</p>
+
+<b>Ouverture d'Amnesty en mode sans échec (Safe Mode)</b></p>
+<p>
+Par défaut, Amnesty se rappelle la dernière disposition ouverte et l'ouvre la prochaine fois qu'elle est lancée. Si pour quelque raison, un widget dans cette disposition fait planter ou geler Amnesty, vous pouvez forcer Amnesty à se lancer avec tous les widgets fermés en tenant la touche <i>Majus</i> enfoncée au démarrage.</p>
+
+<b>Remettre les préférences internes d'un widget manuellement</b></p><p>
+La plupart des widgets ont leurs propres préférences internes "arrière", ceux-ci sont employés pour sauvegarder et restaurer certains réglages. Dans certains cas, vous pouvez vouloir enlever ces préférences pour "remettre à zéro" un widget qui ne fonctionne pas correctement :	
+<ul>
+1. Dans Amnesty, contrôle-cliquez un widget et choisissez <b>Lire les Infos</b> à partir du menu local qui apparaît.<p>
+2. Prenez note du champ <i>Identifiant</i>.<p>
+3. Fermer widget.<p>
+4. Dans le Finder, ouvrez le dossier de préférence des widgets d'Amnesty
+(~/Bibliothèque/Application Support/Amnesty/Preferences).<p>
+5. Déplacez le fichier dont le nom correspond à celui de l'<i>Identifiant</i> du widget à la corbeille.<p>
+6. Dans Amnesty, ouvrez le widget. Celui-ci devrait être remis à zéro.</ul>
+Noter que ceci diffère de remettre à zéro les réglages de la disposition à zéro.
+	</BODY></HTML>

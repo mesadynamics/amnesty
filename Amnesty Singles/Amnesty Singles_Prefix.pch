@@ -1,0 +1,13 @@
+//
+// Prefix header for all source files of the 'Amnesty Singles' target in the 'Amnesty Singles' project
+//
+
+#define MAC_OS_X_VERSION_MIN_REQUIRED	MAC_OS_X_VERSION_10_3
+#define MAC_OS_X_VERSION_MAX_ALLOWED	MAC_OS_X_VERSION_10_4
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+#define AmnestyLog(c,...)	(void)0
+//#define AmnestyLog			NSLog

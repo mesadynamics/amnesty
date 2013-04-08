@@ -1,0 +1,77 @@
+"OldSystemTitle" = "Sistema não suportado";
+"OldSystemQuit" = "Encerrar";
+"OldSystemMessage" = "Desculpe, o Navegador de Widgets Amnesty requer Mac OS X 10.3.9 ou superior.";
+
+"PantherTitle" = "Informações para usuários do Panther";
+"PantherContinue" = "Iniciar";
+"PantherQuit" = "Encerrar";
+"PantherInstall" = "Abrir Biblioteca de Widgets";
+"PantherMessage1" = "Apesar do Navegador de Widgets Amnesty funcionar no Panther, alguns widgets do Dashboard são desenhados para funcionar apenas no Tiger.";
+"PantherMessage2" = "Já que ainda não foi feito, você deve instalar widgets de outras empresas em sua Biblioteca de Widgets do Amnesty";
+"PantherMessage3" = "~/Library/Application Support/Amnesty/Widgets";
+"PantherMessage4" = "Nota: Widgets pertencentes à Apple Computer não podem ser acessados pelo Navegador de Widgets Amnesty no Panther.";
+
+"DeleteTitle" = "Confirmar Apagar";
+"DeleteConfirm" = "Apagar";
+"DeleteCancel" = "Cancelar";
+"DeleteMessage" = "Deseja apagar o layout  \"%@\"?";
+
+"ReplaceTitle" = "Confirmar Substituir";
+"ReplaceConfirm" = "Substituir";
+"ReplaceCancel" = "Cancelar";
+"ReplaceMessage" = "Deseja substituir o layout \"%@\"?";
+"ReplaceAltMessage" = "Você já possui uma versão anterior de %@ instalada.  Deseja substitui-la?";
+
+"ResetTitle" = "Confirmar Resetar";
+"ResetConfirm" = "Resetar";
+"ResetCancel" = "Cancelar";
+"ResetMessage" = "Deseja resetar os ajustes do widget  \"%@\"?";
+
+"ConfigureHelp" = "Ajuda";
+"ConfigureTitle" = "Ajustes de Widget";
+"ConfigureOK" = "OK";
+"ConfigureMessage" = "Pressione e segure a tecla control e clique em qualquer widget em sua tela.  Selecione então o item \"Configurar...\" do menu que aparece.";
+
+"InfoTitle" = "Info do Widget";
+"InfoOK" = "OK";
+"InfoMessage1" = "Nome";
+"InfoMessage2" = "Identificador";
+"InfoMessage3" = "Versão";
+"InfoMessage4" = "Localização";
+
+"SecurityTitle" = "Verificação de Segurança";
+"SecurityGrant" = "Sempre Permitir";
+"SecurityDontGrant" = "Não Permitir";
+"SecurityMessage" = "O widget %@ solicita permissão para acessar:%@";
+"SecurityTypeFile" = "Arquivos Locais";
+"SecurityTypePlugins" = "Plugins da Internet";
+"SecurityTypeJava" = "Java";
+"SecurityTypeNet" = "Recursos da Internet";
+"SecurityTypeSystem" = "Chamadas do Sistema";
+"SecurityInfo" = "Se o widget é de uma fonte confiável e/ou você aprova este acesso, clique no botão Sempre Permitir para rodar este widget.";
+
+"WidgetRefresh" = "Atualizar agora";
+"WidgetSleep" = "Repouso";
+"WidgetWake" = "Acordar";
+"WidgetSettings" = "Configurar...";
+"WidgetHide" = "Ocultar";
+"WidgetInfo" = "Obter Info.";
+"WidgetClose" = "Fechar Widget";
+"WidgetCopy" = "Duplicar";
+
+"DefaultLayout" = "Padrão";
+"ConfigureHidden" = "Configurar Oculto...";
+"ConfigureLayout" = "Configurar";
+"HideWidgets" = "Ocultar";
+"ShowWidgets" = "Exibir";
+
+"ErrorNoWidgets" = "Nenhum widgets encontrado";
+
+"UpdateCheck" = "Buscar atualizações...";
+"UpdateYes" = "Uma nova versão do Navegador de Widgets Amnesty está disponível.";
+"UpdateNo" = "Sua versão do Navegador de Widgets Amnesty é atual.  Não existem atualizações disponíveis no momento.";
+
+"Samples" = "Amostra de Widgets";
+"UserLayouts" = "Layouts do usuário:";
+
+
